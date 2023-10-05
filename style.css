@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #a3f9ff, #9fecff, #b8dbff, #dbc7ff, #f6b4e0, #ffacc3, #ffa9a1, #ffae81, #f8bc68, #e1ce56, #b8e257, #74f473);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;    
+}
+
+
+nav{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    padding: 1rem;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.option{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+h1{
+    margin-left: 2rem;
+}
+
+#section1, #section2, #section3, #section4{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#section1 ul{
+    margin-left: 2rem;
+}
+
+#section1 div,span{
+    padding:0.5rem;
+    font-weight: bold;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+/* First Row */
+.row1 .box {
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Second Row */
+.row2 .box {
+    border: 3px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Third Row */
+.row3 .box {
+    border: 5px solid green;
+    margin: 20px;
+    padding: 20px;
+}
+
+#section3 ul{
+    /* margin-top: 2rem; */
+    margin-left: 2rem;
+    list-style: none;
+    font-weight: bold;
+}
+
+.static{
+    background-color: white;
+    font-weight: bold;
+    border-style: solid;
+    height: 5rem;
+    width: 30rem;
+}
+
+.relative_parent {
+    background:white;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.absolute_child {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+
+.fixed {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 35rem;
+    width: 30rem;
+    height: 5rem;
+    padding: 1rem;
+    right: 0;
+    background: white;
+  }
+
+footer{
+    position: sticky;
+    bottom:0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    font-weight: bold;
+}
