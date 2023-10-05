@@ -1,7 +1,7 @@
 # self-assessment-1
 This is HTML+CSS self-assessment for the course CS5610 : Web Development.
 
-# Deployed github pages link: 
+# Deployed github pages link: https://jishvashah.github.io/self-assessment-1/
 
 The assignment demonstrates the following tasks as follows:
 1. List of 10 most useful HTML tags.
